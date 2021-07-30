@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         backgroundColor: Colors.black,
         primaryColor: Color(0xFFF61332),
-        scaffoldBackgroundColor: Colors.black
+        scaffoldBackgroundColor: Colors.black,
+        fontFamily: 'Raleway'
       ),
       theme: ThemeData(
         brightness: Brightness.dark,
