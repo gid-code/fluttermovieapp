@@ -2,7 +2,7 @@
 
 Flutter UI implementation.
 
-I'll will implementation real data later
+Will implement real data later
 
 ## UI reference by [Joe_nkll](https://dribbble.com/Joe_kl)
 
