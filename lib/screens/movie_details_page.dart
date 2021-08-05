@@ -70,49 +70,65 @@ class _MovieDetailsState extends State<MovieDetails> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(12),
-                      color: Color(0xFF303030)
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text('PG',
-                        style: TextStyle(
-                          fontSize: 16,
+                    width: MediaQuery.of(context).size.width * 0.55,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: Color(0xFF303030)
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('PG',
+                              style: TextStyle(
+                                fontSize: 16,
+                              ),
+                            ),
+                          ),
                         ),
-                      ),
+                        Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: Color(0xFF303030)
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('Action',
+                              style: TextStyle(
+                                fontSize: 16,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: Color(0xFF303030)
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text('⭐️ 4.2',
+                              style: TextStyle(
+                                fontSize: 14,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                   Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(12),
-                      color: Color(0xFF303030)
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text('Action',
-                        style: TextStyle(
-                          fontSize: 16,
-                        ),
-                      ),
+                    width: MediaQuery.of(context).size.width * 0.2,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Icon(CupertinoIcons.plus_app,size: 30),
+                        Icon(CupertinoIcons.paperplane,size: 30),
+                      ],
                     ),
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(12),
-                      color: Color(0xFF303030)
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Text('⭐️ 4.2',
-                        style: TextStyle(
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ),
-                  Icon(CupertinoIcons.plus_app,size: 30),
-                  Icon(CupertinoIcons.paperplane,size: 30),
                 ],
               ),
               SizedBox(height: 18,),
@@ -274,12 +290,12 @@ class _MovieDetailsState extends State<MovieDetails> {
               pinned: false,
               flexibleSpace: FlexibleSpaceBar(
                 centerTitle: true,
-                title: Text('Space Jam: A New Legacy',
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w600
-                  ),
-                ),
+                // title: Text('Space Jam: A New Legacy',
+                //   style: TextStyle(
+                //     fontSize: 20,
+                //     fontWeight: FontWeight.w600
+                //   ),
+                // ),
                 background: Stack(
                   children: [
                     Container(
@@ -303,18 +319,18 @@ class _MovieDetailsState extends State<MovieDetails> {
                       ),
                       // child: Text('1h 20min'),
                     ),
-                    // Padding(
-                    //   padding: const EdgeInsets.all(8.0),
-                    //   child: Align(
-                    //     alignment: Alignment.bottomRight,
-                    //     child: Text('1h 20min',
-                    //       style: TextStyle(
-                    //         fontSize: 18,
-                    //         fontWeight: FontWeight.w600
-                    //       ),
-                    //     ),
-                    //   ),
-                    // ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Align(
+                        alignment: Alignment.bottomRight,
+                        child: Text('1h 20min',
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.w600
+                          ),
+                        ),
+                      ),
+                    ),
                     Align(
                       alignment: Alignment.center,
                       child: Container(

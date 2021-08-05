@@ -1,16 +1,24 @@
-# movieapp
+# Flutter MovieApp
 
-A new Flutter project.
+Flutter UI implementation.
 
-## Getting Started
+I'll will implementation real data later
 
-This project is a starting point for a Flutter application.
+## UI reference by [Joe_nkll](https://dribbble.com/Joe_kl)
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://cdn.dribbble.com/users/4317427/screenshots/15473335/media/8e97656fa62b339a3a036b05a6245c79.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Screenshots
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+  <tr>
+    <td>
+      <img src="repocontent/home_screen.png" />
+    </td>
+    <td>
+      <img src="repocontent/details_screen.png" />
+    </td>
+  </tr>
+</table>
+
+
